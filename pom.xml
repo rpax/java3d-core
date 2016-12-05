@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.massisframework.j3d</groupId>
+  <artifactId>java3d-core</artifactId>
+  <version>1.6</version>
+  <name>Java 3D Core libraries</name>
+  <url>http://www.massisframework.com/</url>
+  <licenses>
+    <license>
+    <name>GNU General Public License, Version 2 with the Classpath Exception</name>
+    <url>http://www.gnu.org/software/classpath/license.html</url>
+    <distribution>repo</distribution>
+    </license>
+  </licenses>
+<scm>
+	<connection>scm:git:git@github.com:rpax/java3d-core</connection>
+	<url>scm:git:git@github.com:rpax/java3d-core</url>
+	<developerConnection>scm:git:git@github.com:rpax/java3d-core</developerConnection>
+	<tag>HEAD</tag>
+</scm>
+  <developers>		
+		<developer>
+			<email>rpax@ucm.es</email>
+			<name>Rafael Pax</name>
+			<url>http://www.massisframework.com</url>
+			<id>rpax</id>
+			<roles>
+				<role>maven uploader</role>
+			</roles>
+		</developer>
+	</developers>
+  <description>Java3D Core Libraries</description>
+</project>
