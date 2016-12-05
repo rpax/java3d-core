@@ -8,6 +8,11 @@
 	<version>1.6</version>
 	<name>Java 3D Core libraries</name>
 	<url>http://www.massisframework.com/</url>
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
 	<licenses>
 		<license>
 			<name>GNU General Public License, Version 2 with the Classpath Exception</name>
@@ -21,6 +26,7 @@
 		<developerConnection>scm:git:git@github.com:rpax/java3d-core</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
+	
 	<developers>
 		<developer>
 			<email>rpax@ucm.es</email>
