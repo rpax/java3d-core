@@ -39,4 +39,11 @@
 		</developer>
 	</developers>
 	<description>Java3D Core Libraries</description>
+	<dependencies>
+		<dependency>
+			<groupId>com.massisframework.j3d</groupId>
+			<artifactId>vecmath</artifactId>
+			<version>1.6</version>
+		</dependency>
+	</dependencies>
 </project>
