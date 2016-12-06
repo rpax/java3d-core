@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.massisframework.j3d</groupId>
 	<artifactId>java3d-core</artifactId>
-	<version>1.6.0-SNAPSHOT</version>
+	<version>1.6.0</version>
 	<name>Java 3D Core libraries</name>
 	<url>http://www.massisframework.com/</url>
 	<properties>
@@ -25,7 +23,8 @@
 		<connection>scm:git:git@github.com:rpax/java3d-core</connection>
 		<url>scm:git:git@github.com:rpax/java3d-core</url>
 		<developerConnection>scm:git:git@github.com:rpax/java3d-core</developerConnection>
-	</scm>
+	  <tag>java3d-core-1.6.0</tag>
+  </scm>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
@@ -138,7 +137,7 @@
 		<dependency>
 			<groupId>com.massisframework.j3d</groupId>
 			<artifactId>vecmath</artifactId>
-			<version>1.6.0-SNAPSHOT</version>
+			<version>1.6.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jogamp.jogl</groupId>
