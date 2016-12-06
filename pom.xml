@@ -63,7 +63,7 @@
 			</resource>
 		</resources>
 	</build>
-	<description>Java3D Vecmath Libraries</description>
+	<description>Java3D Core And Java3D Util Libraries</description>
 	<profiles>
 		<profile>
 			<id>release</id>
