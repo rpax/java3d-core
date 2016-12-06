@@ -23,7 +23,7 @@
 	</licenses>
 	<scm>
 		<connection>scm:git:git@github.com:rpax/java3d-core</connection>
-		<url>scm:git:git@github.com:rpax/vecmath</url>
+		<url>scm:git:git@github.com:rpax/java3d-core</url>
 		<developerConnection>scm:git:git@github.com:rpax/java3d-core</developerConnection>
 	</scm>
 	<distributionManagement>
